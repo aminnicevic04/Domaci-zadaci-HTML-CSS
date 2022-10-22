@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+.navigation{
+    background-color: rgb(159, 159, 235);
+    height: 100vh;
+    width: 430px;
+}
+.centar{
+    background-color: greenyellow;
+    width: 100%;
+}
+header{
+    background-color: greenyellow;
+    width: 100%;
+    height: 200px;
+    z-index: 2;
+}
+article{
+    height: 60vh;
+    width: 80%;
+    background:rgb(180, 178, 178) ;
+}
+footer{
+    height: 200px;
+    background-color: greenyellow;
+    z-index: 1;
+}
+aside{
+    background-color: antiquewhite;
+    height: 81vh;
+    position: absolute;
+    right: 0;
+    top: 199px;
+    width: 20%;
+}
